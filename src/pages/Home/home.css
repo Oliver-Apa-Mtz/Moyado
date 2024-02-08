@@ -1,0 +1,73 @@
+.banner-ppal{
+	position: relative;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding: 0 20px;
+}
+.banner-ppal--second{
+	margin-top: -260px;
+}
+.banner__container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.banner__text{
+	max-width: 750px;
+}
+.services{
+	position: relative;
+}
+.banner-text{
+	max-width: 500px;
+}
+.banner-text--large{
+	max-width: 600px;
+}
+h3{
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.efect-line, .efect-line--custom{
+	position: relative;
+}
+.efect-line::before, .efect-line--custom::before{
+	position: absolute;
+	content: "";
+	width: 42px;
+	height: 7px;
+	background: #BF1920;
+	top: -40px;
+	left: calc(50% - 20px);
+}
+.efect-line--white::before{
+	background: white
+}
+.efect-line--custom::before{
+	left: 0px;
+}
+.button{
+	padding: 10px 20px;
+	border: 1px solid white;
+	color: white;
+	transition: all .2s ease-in-out;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.button:hover{
+	background: white;
+	color: black;
+}
+.button--custom{
+	background: white;
+	color: black;
+}
+.button--custom:hover{
+	background: transparent;
+	color: white;
+}
+.button--small{
+	padding: 10px 15px;
+	font-size: 12px;
+}
