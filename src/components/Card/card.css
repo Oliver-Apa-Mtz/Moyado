@@ -5,9 +5,8 @@
 	background-color: #ECECEC;
 	padding: 20px;
 }
-.card__image{
+.card__image img{
 	width: 90px;
-	margin: 0 auto 40px;
 }
 .card__text{
 	width: 100%;
