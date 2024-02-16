@@ -6,9 +6,9 @@ interface IProps {
 }
 const Card = ({ image, text }: IProps) => {
 	return (
-		<div className="card text-center flex justify-center items-center flex-wrap">
-			<div className="card__image">
-				<img src={image} alt="" />
+		<div className="card text-center">
+			<div className="card__image mb-6">
+				<img className='mx-auto' src={image} alt="" />
 			</div>
 			<div>
 				<p className="card__text text-base" dangerouslySetInnerHTML={{ __html: text }}></p>

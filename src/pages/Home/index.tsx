@@ -13,6 +13,7 @@ import Icon1 from '../../assets/img/icon-1.svg';
 import Icon2 from '../../assets/img/icon-2.svg';
 import Icon3 from '../../assets/img/icon-3.svg';
 import Icon4 from '../../assets/img/icon-4.svg';
+import Icon5 from '../../assets/img/arrow.svg'
 
 import Service1 from '../../assets/img/service-1.jpeg';
 import Service2 from '../../assets/img/service-2.jpeg';
@@ -92,6 +93,7 @@ const Home = () => {
 								<h3 className="text-2xl poppins-extrabold mb-4 text-red">
 									Déjanos ser tu socio de confianza y descubre cómo podemos potenciar tu éxito financiero
 								</h3>
+								<img className='mx-auto mt-10' src={Icon5} alt="" />
 							</div>
 						</div>
 					</div>

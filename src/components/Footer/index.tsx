@@ -1,29 +1,66 @@
 import './footer.css';
 
+import Logo from '../../assets/img/logo-footer.png';
+import IconMarker from '../../assets/img/marker.svg';
+import IconPhone from '../../assets/img/phone.svg';
+import IconFacebook from '../../assets/img/facebook.svg';
+import IconInstagram from '../../assets/img/instagram.svg';
+import IconX from '../../assets/img/x.svg';
+
 const Footer = () => {
 	return (
-		<footer className="footer w-screen min-h-[600px] flex justify-center">
-			<div className="flex text-white items-center w-[1200px] pt-[25px]">
-				<div className="basis-1/6">
-					<div className="header__logo w-[290px]">
+		<footer className="footer w-screen min-h-[600px] flex flex-wrap">
+			<div className="flex text-white w-[1200px] mx-auto">
+				<div className="basis-2/6">
+					<div className="">
 					</div>
 				</div>
-				<div className="basis-4/6 h-12">
-					<div className="header__nav h-full flex justify-center items-center gap-5 poppins-semibold text-sm">
-						<div className="header__nav__item cursor-pointer">Home</div>
-						<div className="header__nav__item cursor-pointer">¿Quiénes somos?</div>
-						<div className="header__nav__item cursor-pointer">Beneficios</div>
-						<div className="header__nav__item cursor-pointer">Alianzas estratégicas</div>
-						<div className="header__nav__item cursor-pointer">Servicios</div>
-						<div className="header__nav__item cursor-pointer">Contáctanos</div>
+				<div className="basis-4/6 pl-20">
+					<div className="roboto-regular text-xl">
+						<div className="footer__logo cursor-pointer mb-14">
+							<img src={Logo} alt="" />
+						</div>
+						<div className="footer__nav">
+							<div className="footer__nav__item cursor-pointer flex mb-8">
+								<span className='mr-6'>
+									<img className="w-[43px]" src={IconMarker} alt="" />
+								</span>
+								Av. Hidalgo No. 3210, Vallarta San Jorge.
+								CP. 44690. Guadalajara, Jalisco
+							</div>
+							<div className="footer__nav__item cursor-pointer flex mb-8">
+								<span className='mr-6'>
+									<img src={IconPhone} alt="" />
+								</span>
+								(33) 3121 1681 | 3334 7543 | 3335 4012
+							</div>
+						</div>
+						<div className='footer__social flex pl-14'>
+							<div className='mr-6'>
+								<a href="#">
+									<img src={IconFacebook} alt="" />
+								</a>
+							</div>
+							<div className='mr-6'>
+								<a href="#">
+									<img src={IconInstagram} alt="" />
+								</a>
+							</div>
+							<div className='mr-6'>
+								<a href="#">
+									<img src={IconX} alt="" />
+								</a>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div className="basis-1/6 h-12 flex justify-end">
-					<div className="header__phones h-full poppins-semibold text-sm">
-						<div className="header__nav__item cursor-pointer">33 3121 1681</div>
-						<div className="header__nav__item cursor-pointer">33 3334 7543</div>
-						<div className="header__nav__item cursor-pointer">33 3335 4012</div>
-					</div>
+			</div>
+			<div className="flex text-white w-[1200px] justify-between items-end mx-auto">
+				<div className="basis-1/2">
+					<p>Aviso de Privacidad</p>
+				</div>
+				<div className="basis-1/2 text-right">
+					<p>Sitio creado por Erredesignn 2023.</p>
 				</div>
 			</div>
 		</footer>

@@ -1,5 +1,6 @@
 import './header.css';
 import Logo from '../../assets/img/logo.svg';
+import Icon from '../../assets/img/arrow-white.svg';
 
 const Header = () => {
 	return (
@@ -12,12 +13,42 @@ const Header = () => {
 				</div>
 				<div className="basis-4/6 h-12">
 					<div className="header__nav h-full flex justify-center items-center gap-5 poppins-semibold text-sm">
-						<div className="header__nav__item cursor-pointer">Home</div>
-						<div className="header__nav__item cursor-pointer">¿Quiénes somos?</div>
-						<div className="header__nav__item cursor-pointer">Beneficios</div>
-						<div className="header__nav__item cursor-pointer">Alianzas estratégicas</div>
-						<div className="header__nav__item cursor-pointer">Servicios</div>
-						<div className="header__nav__item cursor-pointer">Contáctanos</div>
+						<div className="header__nav__item cursor-pointer flex items-center">
+							Home
+							<span className="header__nav__item__icon">
+								<img src={Icon} alt="" />
+							</span>
+						</div>
+						<div className="header__nav__item cursor-pointer flex items-center">
+							¿Quiénes somos?
+							<span className="header__nav__item__icon">
+								<img src={Icon} alt="" />
+							</span>
+						</div>
+						<div className="header__nav__item cursor-pointer flex items-center">
+							Beneficios
+							<span className="header__nav__item__icon">
+								<img src={Icon} alt="" />
+							</span>
+						</div>
+						<div className="header__nav__item cursor-pointer flex items-center">
+							Alianzas estratégicas
+							<span className="header__nav__item__icon">
+								<img src={Icon} alt="" />
+							</span>
+						</div>
+						<div className="header__nav__item cursor-pointer flex items-center">
+							Servicios
+							<span className="header__nav__item__icon">
+								<img src={Icon} alt="" />
+							</span>
+						</div>
+						<div className="header__nav__item cursor-pointer flex items-center">
+							Contáctanos
+							<span className="header__nav__item__icon">
+								<img src={Icon} alt="" />
+							</span>
+						</div>
 					</div>
 				</div>
 				<div className="basis-1/6 h-12 flex justify-end">

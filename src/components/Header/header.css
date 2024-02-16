@@ -10,3 +10,9 @@
 .header__nav__item{
 	letter-spacing: 0.5px;
 }
+.header__nav__item__icon{
+	display: none;
+}
+.header__nav__item:hover .header__nav__item__icon{
+	display: block;
+}

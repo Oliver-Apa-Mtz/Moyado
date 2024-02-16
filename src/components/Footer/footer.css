@@ -1,4 +1,11 @@
 .footer{
 	background-color: #060606;
 	margin-top: -1px;
+	padding: 100px 20px 50px;
+}
+.footer__logo{
+	width:307px;
+}
+.footer__nav{
+	width: 620px;
 }
