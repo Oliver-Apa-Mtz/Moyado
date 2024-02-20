@@ -9,6 +9,11 @@ import Banner1 from '../../assets/img/banner-1-white.png';
 import Banner2 from '../../assets/img/banner-2-white.png';
 import Banner3 from '../../assets/img/banner-2.png';
 
+import Effect1 from '../../assets/img/effect-1.png';
+import Effect2 from '../../assets/img/effect-2.png';
+import Effect3 from '../../assets/img/effect-3.png';
+import Effect4 from '../../assets/img/effect-4.png';
+
 import Icon1 from '../../assets/img/icon-1.svg';
 import Icon2 from '../../assets/img/icon-2.svg';
 import Icon3 from '../../assets/img/icon-3.svg';
@@ -28,7 +33,7 @@ const Home = () => {
 		<Layout>
 			{
 				<div>
-					<div className="banner-ppal w-screen h-[850px]" style={{ backgroundImage: `url(${Banner})`, backgroundPosition: 'center bottom' }}>
+					<div id="home" className="banner-ppal w-screen h-[850px]" style={{ backgroundImage: `url(${Banner})`, backgroundPosition: 'center bottom' }}>
 						<div className="banner__container w-full h-full flex items-center gap-4">
 							<div className="banner__text w-full">
 								<h1 className="text-white text-2xl mb-4 poppins-extrabold">
@@ -41,7 +46,7 @@ const Home = () => {
 						</div>
 					</div>
 
-					<div className="banner-ppal banner-ppal--second w-screen h-[1100px]" style={{ backgroundImage: `url(${Banner2})`, backgroundPosition: 'center top' }}>
+					<div id="about" className="banner-ppal banner-ppal--second w-screen h-[1100px]" style={{ backgroundImage: `url(${Banner2})`, backgroundPosition: 'center top' }}>
 						<div className="banner__container w-full h-full flex items-center gap-4">
 							<div className="w-[835px] pt-20">
 								<h3 className="text-3xl poppins-extrabold mb-4 efect-line--custom">
@@ -59,9 +64,11 @@ const Home = () => {
 								</p>
 							</div>
 						</div>
+						<img className='effect-1' src={Effect1} alt="Efecto-cuadro 1" />
+						<img className='effect-2' src={Effect2} alt="Efecto-cuadro 2" />
 					</div>
 
-					<div className="services">
+					<div id="benefits" className="services">
 						<div className="text-center w-full flex justify-center">
 							<h3 className="text-3xl poppins-extrabold mb-20 w-[600px]">
 								¿Por qué elegir  Moyado | Auditores & Consultores?
@@ -87,13 +94,15 @@ const Home = () => {
 						</div>
 					</div>
 
-					<div className="banner-ppal banner-ppal--three w-screen h-[1100px] z-[-1]" style={{ backgroundImage: `url(${Banner1})` }}>
+					<div id="alianzas" className="banner-ppal banner-ppal--three w-screen h-[1100px] z-[-1]" style={{ backgroundImage: `url(${Banner1})` }}>
+						<img className='effect-3' src={Effect1} alt="Efecto-cuadro 3" />
+						<img className='effect-4' src={Effect3} alt="Efecto-cuadro 4" />
 						<div className="banner__container w-full h-full flex items-center gap-4">
-							<div className="w-[700px] pt-20 text-center">
+							<div className="w-[700px] pt-80 text-center">
 								<h3 className="text-2xl poppins-extrabold mb-4 text-red">
 									Déjanos ser tu socio de confianza y descubre cómo podemos potenciar tu éxito financiero
 								</h3>
-								<img className='mx-auto mt-10' src={Icon5} alt="" />
+								<img className='mx-auto mt-10' src={Icon5} alt="Efecto-cuadro 5" />
 							</div>
 						</div>
 					</div>
@@ -114,9 +123,11 @@ const Home = () => {
 								</p>
 							</div>
 						</div>
+						<img className='effect-5' src={Effect1} alt="Efecto-cuadro 6" />
+						<img className='effect-6' src={Effect2} alt="Efecto-cuadro 7" />
 					</div>
 
-					<div className="w-screen h-auto relative z-20 pt-[300px] mb-20">
+					<div id="services" className="w-screen h-auto relative z-20 pt-[300px] mb-40">
 						<div className="banner__container w-full h-full flex items-center justify-center flex-wrap">
 							<div className="w-[990px] text-center">
 								<h3 className="text-2xl poppins-extrabold mb-12">
@@ -184,7 +195,8 @@ const Home = () => {
 						</div>
 					</div>
 
-					<div className="banner-ppal w-screen h-[1100px] relative z-22" style={{ backgroundImage: `url(${Banner3})` }}>
+					<div id="contact" className="banner-ppal w-screen h-[1100px] relative z-22" style={{ backgroundImage: `url(${Banner3})` }}>
+						<img className='effect-7' src={Effect4} alt="Efecto-cuadro 8" />
 						<div className="banner__container w-full h-full">
 							<div className="text-white relative text-center pt-[270px] mb-[80px]">
 								<h3 className="text-4xl poppins-extrabold mb-6">

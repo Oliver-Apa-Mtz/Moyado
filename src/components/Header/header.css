@@ -1,6 +1,12 @@
 .header{
 	z-index: 99;
 }
+.fixed{
+	background: black;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	box-shadow: 0px 4px 8px rgba(0,0,0,.2);
+}
 .header__phones{
 	width: 140px;
 	height: max-content;
@@ -11,8 +17,9 @@
 	letter-spacing: 0.5px;
 }
 .header__nav__item__icon{
-	display: none;
+	opacity: 0;
+	margin-left: 5px;
 }
 .header__nav__item:hover .header__nav__item__icon{
-	display: block;
+	opacity: 1;
 }
