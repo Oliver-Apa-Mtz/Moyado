@@ -2,26 +2,23 @@
 	position: relative;
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 0 20px;
+	padding: 0 40px;
 }
 .effect-1{
 	position: absolute;
-	z-index: 99;
-	bottom: 140px;
+	z-index: 90;
 	right: 0;
 	opacity: 1.4;
 	mix-blend-mode: multiply;
 }
 .effect-2 {
 	position: absolute;
-	bottom: 80px;
 	right: 0;
-	z-index: -1;
 }
 .effect-3 {
 	position: absolute;
-	z-index: 99;
-	top: 194px;
+	z-index: 90;
+	top: 180px;
 	left: -40px;
 	opacity: 1.4;
 	mix-blend-mode: multiply;
@@ -36,7 +33,7 @@
 }
 .effect-5 {
 	position: absolute;
-	z-index: 99;
+	z-index: 90;
 	bottom: -130px;
 	right: 0;
 	opacity: 1.4;
@@ -61,6 +58,7 @@
 	margin-top: -160px;
 }
 .banner__container{
+	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
 }
@@ -188,10 +186,63 @@
 	.banner-ppal--second {
 		margin-top: -350px;
 	}
+	.effect-1{
+		bottom: 0;
+	}
+	.effect-2{
+		z-index: 0;
+		bottom: -80px;
+	}
 }
-
+@media screen and (max-width: 1500px) {
+	.effect-1 {
+		bottom: 140px;
+	}
+	.effect-2 {
+		bottom: 80px;
+		z-index: -1;
+	}
+}
 @media screen and (max-width: 1400px) {
 	.banner-ppal--second {
 		margin-top: -256px;
+	}
+}
+@media screen and (max-width: 1300px) {
+	.service-item {
+		width: 300px;
+		height: 300px;
+	}
+}
+@media screen and (max-width: 1023px) {
+	.banner__text{
+		max-width: 100%;
+		text-align: center;
+	}
+	.effect-1 {
+		bottom: 80px;
+	}
+	.effect-2 {
+		bottom: 40px;
+	}
+	.effect-5 {
+		bottom: -180px;
+	}
+	.effect-6 {
+		bottom: -200px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.effect-1, .effect-2, .effect-3, .effect-4, .effect-5, .effect-6 {
+		display: none;
+	}
+	.banner-gray{
+		background-color: #DEDEDE;
+		margin-top: -100px;
+		height: auto;
+		padding-bottom: 80px;
+	}
+	.banner-gray::before {
+		display: none;
 	}
 }

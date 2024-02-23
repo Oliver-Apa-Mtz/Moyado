@@ -17,3 +17,33 @@
 .card__text{
 	width: 100%;
 }
+@media screen and (max-width: 1023px) {
+	.card {
+		width: 300px;
+		height: 300px;
+	}
+	.card p{
+		font-size: 20px;
+	}
+	.card__image {
+		height: 70px;
+	}
+	.card__image img{
+		height: 100%;
+	}
+}
+@media screen and (max-width: 767px) {
+	.card {
+		width: 250px;
+		height: 250px;
+	}
+	.card p {
+		font-size: 14px;
+	}
+	.card__image {
+		height: 50px;
+	}
+	.card__image img {
+		height: 100%;
+	}
+}

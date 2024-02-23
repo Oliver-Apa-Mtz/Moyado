@@ -36,7 +36,7 @@ const Home = () => {
 					<div id="home" className="banner-ppal w-screen h-[850px]" style={{ backgroundImage: `url(${Banner})`, backgroundPosition: 'center bottom' }}>
 						<div className="banner__container w-full h-full flex items-center gap-4">
 							<div className="banner__text w-full">
-								<h1 className="text-white text-2xl mb-4 poppins-extrabold">
+								<h1 className="text-white text-2xl mb-10 sm:mb-4 poppins-extrabold">
 									Descubre el camino hacia el éxito financiero de tu empresa
 								</h1>
 								<p className="text-white mb-4 text-base roboto-regular">
@@ -48,8 +48,8 @@ const Home = () => {
 
 					<div id="about" className="banner-ppal banner-ppal--second w-screen h-[1100px]" style={{ backgroundImage: `url(${Banner2})`, backgroundPosition: 'center top' }}>
 						<div className="banner__container w-full h-full flex items-center gap-4">
-							<div className="w-[835px] pt-20">
-								<h3 className="text-3xl poppins-extrabold mb-4 efect-line--custom">
+							<div className="w-[835px] lg:pt-20 md:pt-0">
+								<h3 className="text-xl sm:text-3xl poppins-extrabold mb-4 efect-line--custom">
 									¡Transformamos números <br></br>en oportunidades!
 								</h3>
 								<p className="mb-8 text-base roboto-regular">
@@ -70,11 +70,11 @@ const Home = () => {
 
 					<div id="benefits" className="services">
 						<div className="text-center w-full flex justify-center">
-							<h3 className="text-3xl poppins-extrabold mb-20 w-[600px]">
+							<h3 className="text-xl sm:text-3xl poppins-extrabold mb-20 w-full max-w-[640px] lg:pt-20 px-[20px]">
 								¿Por qué elegir  Moyado | Auditores & Consultores?
 							</h3>
 						</div>
-						<div className="banner__container flex gap-6 flex-wrap justify-center w-[800px]">
+						<div className="flex gap-6 flex-wrap justify-center w-full max-w-[800px] px-10 md:px-0 mx-auto">
 							<Card
 								image={Icon1}
 								text={'<p><b>Atención personalizada</b> y dedicada a cada cliente.</p>'}
@@ -94,12 +94,12 @@ const Home = () => {
 						</div>
 					</div>
 
-					<div id="alianzas" className="banner-ppal banner-ppal--three w-screen h-[1100px] z-[-1]" style={{ backgroundImage: `url(${Banner1})` }}>
+					<div id="alianzas" className="banner-ppal banner-ppal--three w-screen h-[700px] sm:h-[1100px] z-[-1]" style={{ backgroundImage: `url(${Banner1})` }}>
 						<img className='effect-3' src={Effect1} alt="Efecto-cuadro 3" />
 						<img className='effect-4' src={Effect3} alt="Efecto-cuadro 4" />
 						<div className="banner__container w-full h-full flex items-center gap-4">
-							<div className="w-[700px] pt-80 text-center">
-								<h3 className="text-2xl poppins-extrabold mb-4 text-red">
+							<div className="w-full max-w-[700px] pt-0 sm:pt-40 lg:pt-80 text-center mx-auto lg:mx-0">
+								<h3 className="text-base sm:text-2xl poppins-extrabold mb-4 text-red">
 									Déjanos ser tu socio de confianza y descubre cómo podemos potenciar tu éxito financiero
 								</h3>
 								<img className='mx-auto mt-10' src={Icon5} alt="Efecto-cuadro 5" />
@@ -108,15 +108,15 @@ const Home = () => {
 					</div>
 
 					<div className="banner-gray">
-						<div className="banner__container w-full h-full pt-[350px]">
-							<div className="w-[1200px] text-center mb-10">
+						<div className="banner__container w-full h-full pt-[80px] md:pt-[300px] lg:pt-[350px]">
+							<div className="w-full max-w[1200px] px-[20px] text-center mb-10">
 								<p className="text-xl roboto-regular relative">
 									En <b>Moyado | Auditores & Consultores</b>, entendemos la importancia de la colaboración.
 									Contamos con alianzas estratégicas con profesionales en diversas áreas, incluyendo
 									notarios, abogados fiscalistas, especialistas en estudios de mercado, y más.
 								</p>
 							</div>
-							<div className="w-[800px] text-center m-[auto]">
+							<div className="w-full max-w-[800px] px-[20px] text-center m-[auto]">
 								<p className="text-xl roboto-regular relative">
 									¡Estas alianzas nos permiten ofrecer servicios integrales
 									que crean ventajas competitivas para tu empresa!
@@ -127,9 +127,9 @@ const Home = () => {
 						<img className='effect-6' src={Effect2} alt="Efecto-cuadro 7" />
 					</div>
 
-					<div id="services" className="w-screen h-auto relative z-20 pt-[300px] mb-40">
+					<div id="services" className="w-screen h-auto relative z-20 pt-[100px] md:pt-[300px] mb-40 px-[40px]">
 						<div className="banner__container w-full h-full flex items-center justify-center flex-wrap">
-							<div className="w-[990px] text-center">
+							<div className="w-full max-w-[990px] text-center">
 								<h3 className="text-2xl poppins-extrabold mb-12">
 									Impulsar el crecimiento y la estabilidad de tu empresa con nuestros servicios especializados:
 								</h3>

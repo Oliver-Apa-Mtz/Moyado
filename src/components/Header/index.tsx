@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
+import { IoMenuSharp, IoClose } from 'react-icons/io5';
 
 import './header.css';
 import Logo from '../../assets/img/logo.svg';
@@ -7,6 +8,7 @@ import Icon from '../../assets/img/arrow-white.svg';
 
 const Header = () => {
 	const [isHeaderFixed, setIsHeaderFixed] = useState(false);
+	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	const handleScroll = () => {
 		const scrollPosition = window.scrollY;
@@ -23,7 +25,7 @@ const Header = () => {
 
 	return (
 		<header className={`header w-screen flex justify-center ${isHeaderFixed ? 'fixed' : 'absolute'}`}>
-			<div className={`flex text-white justify-between items-center w-[1300px] ${isHeaderFixed ? '' : 'pt-[25px]'}`}>
+			<div className={`flex text-white justify-between items-center w-full max-w-[1300px] px-[20px] ${isHeaderFixed ? '' : 'pt-[25px]'}`}>
 				<div className="mr-4">
 					<Link
 						activeClass="active"
@@ -32,12 +34,12 @@ const Header = () => {
 						smooth={true}
 						offset={0}
 						duration={500}
-						className="header__logo w-[290px] cursor-pointer">
-						<img className="h-full" src={Logo} alt="logo MOYADO" />
+						className="header__logo cursor-pointer">
+						<img src={Logo} alt="logo MOYADO" />
 					</Link>
 				</div>
 				<div className="h-12">
-					<div className="header__nav h-full flex justify-center items-center gap-5 poppins-semibold text-sm">
+					<div className="header__nav h-full flex justify-center items-center md:gap-3 xl:gap-5 poppins-semibold text-sm">
 						<Link
 							activeClass="active"
 							to="home"
@@ -118,14 +120,92 @@ const Header = () => {
 						</Link>
 					</div>
 				</div>
-				<div className="h-12 flex justify-end ml-4">
+				<div className="flex justify-end ml-4">
 					<div className="header__phones h-full poppins-semibold text-sm">
 						<div className="header__nav__item cursor-pointer">33 3121 1681</div>
 						<div className="header__nav__item cursor-pointer">33 3334 7543</div>
 						<div className="header__nav__item cursor-pointer">33 3335 4012</div>
 					</div>
 				</div>
+				<div className="header__icon-menu text-3xl cursor-pointer">
+					{!isMenuOpen && (
+						<IoMenuSharp onClick={() => setIsMenuOpen(true)} className="text-white" />
+					)}
+					{isMenuOpen && (
+						<IoClose onClick={() => setIsMenuOpen(false)} className="text-white" />
+					)}
+				</div>
 			</div>
+			{isMenuOpen && (
+				<div className="header__nav__movil">
+					<Link
+						activeClass="active"
+						to="home"
+						spy={true}
+						smooth={true}
+						offset={0}
+						duration={500}
+						className="header__nav__movil__item cursor-pointer"
+						onClick={() => setIsMenuOpen(false)}>
+						Home
+					</Link>
+					<Link
+						activeClass="active"
+						to="about"
+						spy={true}
+						smooth={true}
+						offset={200}
+						duration={500}
+						className="header__nav__movil__item cursor-pointer"
+						onClick={() => setIsMenuOpen(false)}>
+						¿Quiénes somos?
+					</Link>
+					<Link
+						activeClass="active"
+						to="benefits"
+						spy={true}
+						smooth={true}
+						offset={-150}
+						duration={500}
+						className="header__nav__movil__item cursor-pointer"
+						onClick={() => setIsMenuOpen(false)}>
+						Beneficios
+					</Link>
+					<Link
+						activeClass="active"
+						to="alianzas"
+						spy={true}
+						smooth={true}
+						offset={350}
+						duration={500}
+						className="header__nav__movil__item cursor-pointer"
+						onClick={() => setIsMenuOpen(false)}>
+						Alianzas estratégicas
+					</Link>
+					<Link
+						activeClass="active"
+						to="services"
+						spy={true}
+						smooth={true}
+						offset={120}
+						duration={500}
+						className="header__nav__movil__item cursor-pointer"
+						onClick={() => setIsMenuOpen(false)}>
+						Servicios
+					</Link>
+					<Link
+						activeClass="active"
+						to="contact"
+						spy={true}
+						smooth={true}
+						offset={100}
+						duration={500}
+						className="header__nav__movil__item cursor-pointer"
+						onClick={() => setIsMenuOpen(false)}>
+						Contáctanos
+					</Link>
+				</div>
+			)}
 		</header>
 	)
 }
