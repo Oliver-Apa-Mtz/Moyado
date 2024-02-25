@@ -88,13 +88,16 @@
 .service-item{
 	position: relative;
 	overflow: hidden;
-	width: 368px;
-	height: 368px;
+	width: 100%;
+	max-width: 368px;
+	min-height: 368px;
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 	text-align: center;
 	cursor: pointer;
+	margin-bottom: 40px;
+	padding: 20px;
 }
 .service-item::before{
 	display: none;
@@ -108,13 +111,15 @@
 	opacity: .6;
 }
 .service-item h5{
-	width: 270px;
+	width: 100%;
+	max-width: 270px;
 	text-shadow: -4px 4px 9px rgba(0, 0, 0.5);
 	transition: all .1s;
 	position: relative;
 }
 .service-item p{
-	width: 343px;
+	width: 100%;
+	max-width: 343px;
 	display: none;
 	opacity: 0;
 	transition: all .3s;
@@ -205,13 +210,18 @@
 }
 @media screen and (max-width: 1400px) {
 	.banner-ppal--second {
-		margin-top: -256px;
+		margin-top: -275px;
+	}
+	.effect-7 {
+		top: -50px;
+		right: unset;
+		left: 200px;
 	}
 }
 @media screen and (max-width: 1300px) {
 	.service-item {
-		width: 300px;
-		height: 300px;
+		width: 310px;
+		height: 310px;
 	}
 }
 @media screen and (max-width: 1023px) {
@@ -231,9 +241,17 @@
 	.effect-6 {
 		bottom: -200px;
 	}
+	.effect-7 {
+		top: 0px;
+	}
+	.service-item {
+		width: 95%;
+		max-width: 368px;
+		min-height: 368px;
+	}
 }
 @media screen and (max-width: 767px) {
-	.effect-1, .effect-2, .effect-3, .effect-4, .effect-5, .effect-6 {
+	.effect-1, .effect-2, .effect-3, .effect-4, .effect-5, .effect-6, .effect-7 {
 		display: none;
 	}
 	.banner-gray{
@@ -244,5 +262,10 @@
 	}
 	.banner-gray::before {
 		display: none;
+	}
+}
+@media screen and (max-width: 639px) {
+	.banner-ppal {
+		padding: 0 30px;
 	}
 }

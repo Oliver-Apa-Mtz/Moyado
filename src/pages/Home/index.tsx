@@ -36,10 +36,10 @@ const Home = () => {
 					<div id="home" className="banner-ppal w-screen h-[850px]" style={{ backgroundImage: `url(${Banner})`, backgroundPosition: 'center bottom' }}>
 						<div className="banner__container w-full h-full flex items-center gap-4">
 							<div className="banner__text w-full">
-								<h1 className="text-white text-2xl mb-10 sm:mb-4 poppins-extrabold">
+								<h1 className="text-white text-xl sm:text-2xl mb-10 sm:mb-4 poppins-extrabold">
 									Descubre el camino hacia el éxito financiero de tu empresa
 								</h1>
-								<p className="text-white mb-4 text-base roboto-regular">
+								<p className="text-white mb-4 text-[20px] sm:text-base roboto-regular">
 									Somos tu despacho contable de confianza en Guadalajara.
 								</p>
 							</div>
@@ -52,11 +52,11 @@ const Home = () => {
 								<h3 className="text-xl sm:text-3xl poppins-extrabold mb-4 efect-line--custom">
 									¡Transformamos números <br></br>en oportunidades!
 								</h3>
-								<p className="mb-8 text-base roboto-regular">
+								<p className="mb-8 text-[20px] sm:text-base roboto-regular">
 									Somos más que un despacho contable en Guadalajara; somos
 									tus aliados estratégicos en el camino hacia el éxito financiero.
 								</p>
-								<p className="mb-4 text-base roboto-regular">
+								<p className="mb-4 text-[20px] sm:text-base roboto-regular">
 									Nuestra misión es brindar atención personalizada y la más alta
 									calidad en servicios contables, auditoría, tributarios, asesoría
 									y consultoría legal. Con profesionales experimentados y certificados,
@@ -110,14 +110,14 @@ const Home = () => {
 					<div className="banner-gray">
 						<div className="banner__container w-full h-full pt-[80px] md:pt-[300px] lg:pt-[350px]">
 							<div className="w-full max-w[1200px] px-[20px] text-center mb-10">
-								<p className="text-xl roboto-regular relative">
+								<p className="text-base sm:text-xl roboto-regular relative">
 									En <b>Moyado | Auditores & Consultores</b>, entendemos la importancia de la colaboración.
 									Contamos con alianzas estratégicas con profesionales en diversas áreas, incluyendo
 									notarios, abogados fiscalistas, especialistas en estudios de mercado, y más.
 								</p>
 							</div>
 							<div className="w-full max-w-[800px] px-[20px] text-center m-[auto]">
-								<p className="text-xl roboto-regular relative">
+								<p className="text-base sm:text-xl roboto-regular relative">
 									¡Estas alianzas nos permiten ofrecer servicios integrales
 									que crean ventajas competitivas para tu empresa!
 								</p>
@@ -127,65 +127,63 @@ const Home = () => {
 						<img className='effect-6' src={Effect2} alt="Efecto-cuadro 7" />
 					</div>
 
-					<div id="services" className="w-screen h-auto relative z-20 pt-[100px] md:pt-[300px] mb-40 px-[40px]">
+					<div id="services" className="w-screen h-auto relative z-20 pt-[100px] md:pt-[300px] -mb-20 md:mb-10 lg:mb-40 px-[40px]">
 						<div className="banner__container w-full h-full flex items-center justify-center flex-wrap">
 							<div className="w-full max-w-[990px] text-center">
-								<h3 className="text-2xl poppins-extrabold mb-12">
+								<h3 className="text-xl sm:text-2xl poppins-extrabold mb-12">
 									Impulsar el crecimiento y la estabilidad de tu empresa con nuestros servicios especializados:
 								</h3>
 							</div>
-							<div className="w-full flex flex-row mb-12">
-								<div className="basis-1/3">
+							<div className="w-full flex flex-row flex-wrap mb-12">
+								<div className="basis-[100%] sm:basis-1/2 lg:basis-1/3 flex justify-center lg:justify-start">
 									<div className="service-item flex justify-center items-center" style={{ backgroundImage: `url(${Service1})` }}>
-										<h5 className='poppins-bold text-white text-[35px]'>Auditoría de Estados Financieros</h5>
-										<p className='roboto-regular text-[28px] text-white'>
+										<h5 className='poppins-bold text-white text-base lg:text-[35px]'>Auditoría de Estados Financieros</h5>
+										<p className='roboto-regular text-[20px] lg:text-[28px] text-white'>
 											Emisión de opiniones profesionales e independientes para garantizar
 											la confianza de accionistas e instituciones financieras.
 										</p>
 									</div>
 								</div>
-								<div className="basis-1/3">
+								<div className="basis-[100%] sm:basis-1/2 lg:basis-1/3 flex justify-center">
 									<div className="service-item flex justify-center items-center" style={{ backgroundImage: `url(${Service2})` }}>
-										<h5 className='poppins-bold text-white text-[35px]'>Auditoría de Cumplimiento de Obligaciones (Preventivas)</h5>
-										<p className='roboto-regular text-[28px] text-white'>
+										<h5 className='poppins-bold text-white text-base lg:text-[35px]'>Auditoría de Cumplimiento de Obligaciones (Preventivas)</h5>
+										<p className='roboto-regular text-[20px] lg:text-[28px] text-white'>
 											Verificación precisa del cumplimiento de obligaciones fiscales
 											para prevenir contingencias.
 										</p>
 									</div>
 								</div>
-								<div className="basis-1/3">
+								<div className="basis-[100%] sm:basis-1/2 lg:basis-1/3 flex justify-center lg:justify-end">
 									<div className="service-item flex justify-center items-center" style={{ backgroundImage: `url(${Service3})` }}>
-										<h5 className='poppins-bold text-white text-[35px]'>Proyectos de Regularización Contable</h5>
-										<p className='roboto-regular text-[28px] text-white'>
+										<h5 className='poppins-bold text-white text-base lg:text-[35px]'>Proyectos de Regularización Contable</h5>
+										<p className='roboto-regular text-[20px] lg:text-[28px] text-white'>
 											Optimización de cuentas para reflejar el valor real
 											de los elementos patrimoniales.
 										</p>
 									</div>
 								</div>
-							</div>
-							<div className="w-full flex flex-row">
-								<div className="basis-1/3">
+								<div className="basis-[100%] sm:basis-1/2 lg:basis-1/3 flex justify-center lg:justify-start">
 									<div className="service-item flex justify-center items-center" style={{ backgroundImage: `url(${Service4})` }}>
-										<h5 className='poppins-bold text-white text-[35px]'>Auditoría Operacional</h5>
-										<p className='roboto-regular text-[28px] text-white'>
+										<h5 className='poppins-bold text-white text-base lg:text-[35px]'>Auditoría Operacional</h5>
+										<p className='roboto-regular text-[20px] lg:text-[28px] text-white'>
 											Identificación de áreas de oportunidad, reducción de costos
 											y mejora de procesos para un rendimiento óptimo.
 										</p>
 									</div>
 								</div>
-								<div className="basis-1/3">
+								<div className="basis-[100%] sm:basis-1/2 lg:basis-1/3 flex justify-center">
 									<div className="service-item flex justify-center items-center" style={{ backgroundImage: `url(${Service5})` }}>
-										<h5 className='poppins-bold text-white text-[35px]'>Auditoría de IMSS e Infonavit</h5>
-										<p className='roboto-regular text-[28px] text-white'>
+										<h5 className='poppins-bold text-white text-base lg:text-[35px]'>Auditoría de IMSS e Infonavit</h5>
+										<p className='roboto-regular text-[20px] lg:text-[28px] text-white'>
 											Garantía de la correcta integración de cuotas y asesoría
 											integral en nóminas y contratos laborales.
 										</p>
 									</div>
 								</div>
-								<div className="basis-1/3">
+								<div className="basis-[100%] sm:basis-1/2 lg:basis-1/3 flex justify-center lg:justify-end">
 									<div className="service-item flex justify-center items-center" style={{ backgroundImage: `url(${Service6})` }}>
-										<h5 className='poppins-bold text-white text-[35px]'>Asesoría y Consultoría Contable-Fiscal</h5>
-										<p className='roboto-regular text-[28px] text-white'>
+										<h5 className='poppins-bold text-white text-base lg:text-[35px]'>Asesoría y Consultoría Contable-Fiscal</h5>
+										<p className='roboto-regular text-[20px] lg:text-[28px] text-white'>
 											Evita riesgos fiscales con una ejecución contable-fiscal
 											precisa y bien planificada.
 										</p>
@@ -195,14 +193,14 @@ const Home = () => {
 						</div>
 					</div>
 
-					<div id="contact" className="banner-ppal w-screen h-[1100px] relative z-22" style={{ backgroundImage: `url(${Banner3})` }}>
+					<div id="contact" className="banner-ppal w-screen h-[1200px] sm:h-[1100px] relative z-22" style={{ backgroundImage: `url(${Banner3})` }}>
 						<img className='effect-7' src={Effect4} alt="Efecto-cuadro 8" />
 						<div className="banner__container w-full h-full">
-							<div className="text-white relative text-center pt-[270px] mb-[80px]">
-								<h3 className="text-4xl poppins-extrabold mb-6">
+							<div className="text-white relative text-center pt-[270px] mb-10 md:mb-[80px]">
+								<h3 className="text-xl sm:text-2xl lg:text-4xl poppins-extrabold mb-6">
 									¡Tu éxito comienza aquí!
 								</h3>
-								<p className='roboto-regular text-xl'>
+								<p className='roboto-regular text-base lg:text-xl'>
 									Compártenos tus datos y te contactaremos para resolver tus dudas.
 								</p>
 							</div>

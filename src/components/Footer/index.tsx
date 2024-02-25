@@ -11,24 +11,23 @@ const Footer = () => {
 	return (
 		<footer className="footer w-screen min-h-[600px] flex flex-wrap">
 			<div className="flex text-white w-[1200px] mx-auto">
-				<div className="basis-2/6">
-					<div className="">
-					</div>
+				<div className="hidden lg:block basis-2/6">
+					<div></div>
 				</div>
-				<div className="basis-4/6 pl-20">
-					<div className="roboto-regular text-xl">
+				<div className="lg:basis-4/6 lg:pl-20">
+					<div className="roboto-regular text-[20px] sm:text-xl">
 						<div className="footer__logo cursor-pointer mb-14">
 							<img src={Logo} alt="" />
 						</div>
 						<div className="footer__nav">
-							<div className="footer__nav__item cursor-pointer flex mb-8">
+							<div className="footer__nav__item cursor-pointer flex mb-10 sm:mb-8">
 								<span className='mr-6'>
 									<img className="w-[43px]" src={IconMarker} alt="" />
 								</span>
 								Av. Hidalgo No. 3210, Vallarta San Jorge.
 								CP. 44690. Guadalajara, Jalisco
 							</div>
-							<div className="footer__nav__item cursor-pointer flex mb-8">
+							<div className="footer__nav__item cursor-pointer flex mb-14 sm:mb-8">
 								<span className='mr-6'>
 									<img src={IconPhone} alt="" />
 								</span>
@@ -55,11 +54,11 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<div className="flex text-white w-[1200px] justify-between items-end mx-auto">
-				<div className="basis-1/2">
+			<div className="sm:flex text-white w-[1200px] justify-between items-end mx-auto mt-20 sm:mt-0">
+				<div className="basis-1/2 text-center sm:text-left">
 					<p>Aviso de Privacidad</p>
 				</div>
-				<div className="basis-1/2 text-right">
+				<div className="basis-1/2 text-center sm:text-right">
 					<p>Sitio creado por Erredesignn 2023.</p>
 				</div>
 			</div>

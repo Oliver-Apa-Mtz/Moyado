@@ -96,3 +96,8 @@
 		display: block;
 	}
 }
+@media screen and (max-width: 639px) {
+	.header__phones {
+		margin-right: 50px;
+	}
+}
