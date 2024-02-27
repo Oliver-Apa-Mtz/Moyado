@@ -1,6 +1,6 @@
 import './footer.css';
 
-import Logo from '../../assets/img/logo-footer.png';
+import Logo from '../../assets/img/logo-footer.webp';
 import IconMarker from '../../assets/img/marker.svg';
 import IconPhone from '../../assets/img/phone.svg';
 

@@ -4,15 +4,15 @@ import Layout from '../../components/Layout';
 import Card from '../../components/Card';
 import Form from '../../components/Form';
 
-import Banner from '../../assets/img/banner.png';
-import Banner1 from '../../assets/img/banner-1-white.png';
-import Banner2 from '../../assets/img/banner-2-white.png';
-import Banner3 from '../../assets/img/banner-2.png';
+import Banner from '../../assets/img/banner.webp';
+import Banner1 from '../../assets/img/banner-1-white.webp';
+import Banner2 from '../../assets/img/banner-2-white.webp';
+import Banner3 from '../../assets/img/banner-2.webp';
 
-import Effect1 from '../../assets/img/effect-1.png';
-import Effect2 from '../../assets/img/effect-2.png';
-import Effect3 from '../../assets/img/effect-3.png';
-import Effect4 from '../../assets/img/effect-4.png';
+import Effect1 from '../../assets/img/effect-1.webp';
+import Effect2 from '../../assets/img/effect-2.webp';
+import Effect3 from '../../assets/img/effect-3.webp';
+import Effect4 from '../../assets/img/effect-4.webp';
 
 import Icon1 from '../../assets/img/icon-1.svg';
 import Icon2 from '../../assets/img/icon-2.svg';
@@ -20,12 +20,12 @@ import Icon3 from '../../assets/img/icon-3.svg';
 import Icon4 from '../../assets/img/icon-4.svg';
 import Icon5 from '../../assets/img/arrow.svg'
 
-import Service1 from '../../assets/img/service-1.jpeg';
-import Service2 from '../../assets/img/service-2.jpeg';
-import Service3 from '../../assets/img/service-3.jpeg';
-import Service4 from '../../assets/img/service-4.jpeg';
-import Service5 from '../../assets/img/service-5.jpeg';
-import Service6 from '../../assets/img/service-6.jpeg';
+import Service1 from '../../assets/img/service-1.webp';
+import Service2 from '../../assets/img/service-2.webp';
+import Service3 from '../../assets/img/service-3.webp';
+import Service4 from '../../assets/img/service-4.webp';
+import Service5 from '../../assets/img/service-5.webp';
+import Service6 from '../../assets/img/service-6.webp';
 
 const Home = () => {
 
