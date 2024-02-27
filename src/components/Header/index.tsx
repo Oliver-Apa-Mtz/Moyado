@@ -122,9 +122,9 @@ const Header = () => {
 				</div>
 				<div className="flex justify-end ml-4">
 					<div className="header__phones h-full poppins-semibold text-sm">
-						<div className="header__nav__item cursor-pointer">33 3121 1681</div>
-						<div className="header__nav__item cursor-pointer">33 3334 7543</div>
-						<div className="header__nav__item cursor-pointer">33 3335 4012</div>
+						<a href="tel:+523331211681" className={`block header__nav__item cursor-pointer ${isHeaderFixed ? 'hover:text-[#e3141d]' : 'hover:text-black'}`}>33 3121 1681</a>
+						<a href="tel:+523333347543" className={`block header__nav__item cursor-pointer ${isHeaderFixed ? 'hover:text-[#e3141d]' : 'hover:text-black'}`}>3334 7543</a>
+						<a href="tel:+523333354012" className={`block header__nav__item cursor-pointer ${isHeaderFixed ? 'hover:text-[#e3141d]' : 'hover:text-black'}`}>3335 4012</a>
 					</div>
 				</div>
 				<div className="header__icon-menu text-3xl cursor-pointer">

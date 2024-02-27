@@ -49,9 +49,9 @@ const Home = () => {
 					<div id="about" className="banner-ppal banner-ppal--second w-screen h-[1100px]" style={{ backgroundImage: `url(${Banner2})`, backgroundPosition: 'center top' }}>
 						<div className="banner__container w-full h-full flex items-center gap-4">
 							<div className="w-[835px] lg:pt-20 md:pt-0">
-								<h3 className="text-xl sm:text-3xl poppins-extrabold mb-4 efect-line--custom">
+								<h2 className="text-xl sm:text-3xl poppins-extrabold mb-4 efect-line--custom">
 									¡Transformamos números <br></br>en oportunidades!
-								</h3>
+								</h2>
 								<p className="mb-8 text-[20px] sm:text-base roboto-regular">
 									Somos más que un despacho contable en Guadalajara; somos
 									tus aliados estratégicos en el camino hacia el éxito financiero.
@@ -64,8 +64,8 @@ const Home = () => {
 								</p>
 							</div>
 						</div>
-						<img className='effect-1' src={Effect1} alt="Efecto-cuadro 1" />
-						<img className='effect-2' src={Effect2} alt="Efecto-cuadro 2" />
+						<img className='effect-1' src={Effect1} alt="Somos más que un despacho contable en Guadalajara" />
+						<img className='effect-2' src={Effect2} alt="Somos tus aliados estratégicos en el camino hacia el éxito financiero" />
 					</div>
 
 					<div id="benefits" className="services">
@@ -95,14 +95,14 @@ const Home = () => {
 					</div>
 
 					<div id="alianzas" className="banner-ppal banner-ppal--three w-screen h-[700px] sm:h-[1100px] z-[-1]" style={{ backgroundImage: `url(${Banner1})` }}>
-						<img className='effect-3' src={Effect1} alt="Efecto-cuadro 3" />
-						<img className='effect-4' src={Effect3} alt="Efecto-cuadro 4" />
+						<img className='effect-3' src={Effect1} alt="Nuestra misión es brindar atención personalizada y la más alta calidad en servicios contables, auditoría, tributarios, asesoría y consultoría legal" />
+						<img className='effect-4' src={Effect3} alt="Con profesionales experimentados y certificados, estamos aquí para impulsar el crecimiento de tu empresa." />
 						<div className="banner__container w-full h-full flex items-center gap-4">
 							<div className="w-full max-w-[700px] pt-0 sm:pt-40 lg:pt-80 text-center mx-auto lg:mx-0">
-								<h3 className="text-base sm:text-2xl poppins-extrabold mb-4 text-red">
+								<h4 className="text-base sm:text-2xl poppins-extrabold mb-4 text-red">
 									Déjanos ser tu socio de confianza y descubre cómo podemos potenciar tu éxito financiero
-								</h3>
-								<img className='mx-auto mt-10' src={Icon5} alt="Efecto-cuadro 5" />
+								</h4>
+								<img className='mx-auto mt-10' src={Icon5} alt="Déjanos ser tu socio de confianza y descubre cómo podemos potenciar tu éxito financiero" />
 							</div>
 						</div>
 					</div>
@@ -123,16 +123,16 @@ const Home = () => {
 								</p>
 							</div>
 						</div>
-						<img className='effect-5' src={Effect1} alt="Efecto-cuadro 6" />
-						<img className='effect-6' src={Effect2} alt="Efecto-cuadro 7" />
+						<img className='effect-5' src={Effect1} alt="En Moyado Auditores & Consultores, entendemos la importancia de la colaboración" />
+						<img className='effect-6' src={Effect2} alt="Contamos con alianzas estratégicas con profesionales en diversas áreas, incluyendo notarios, abogados fiscalistas, especialistas en estudios de mercado, y más" />
 					</div>
 
 					<div id="services" className="w-screen h-auto relative z-20 pt-[100px] md:pt-[300px] -mb-20 md:mb-10 lg:mb-40 px-[40px]">
 						<div className="banner__container w-full h-full flex items-center justify-center flex-wrap">
 							<div className="w-full max-w-[990px] text-center">
-								<h3 className="text-xl sm:text-2xl poppins-extrabold mb-12">
+								<h5 className="text-xl sm:text-2xl poppins-extrabold mb-12">
 									Impulsar el crecimiento y la estabilidad de tu empresa con nuestros servicios especializados:
-								</h3>
+								</h5>
 							</div>
 							<div className="w-full flex flex-row flex-wrap mb-12">
 								<div className="basis-[100%] sm:basis-1/2 lg:basis-1/3 flex justify-center lg:justify-start">
@@ -194,12 +194,12 @@ const Home = () => {
 					</div>
 
 					<div id="contact" className="banner-ppal w-screen h-[1200px] sm:h-[1100px] relative z-22" style={{ backgroundImage: `url(${Banner3})` }}>
-						<img className='effect-7' src={Effect4} alt="Efecto-cuadro 8" />
+						<img className='effect-7' src={Effect4} alt="Impulsar el crecimiento y la estabilidad de tu empresa con nuestros servicios especializados" />
 						<div className="banner__container w-full h-full">
 							<div className="text-white relative text-center pt-[270px] mb-10 md:mb-[80px]">
-								<h3 className="text-xl sm:text-2xl lg:text-4xl poppins-extrabold mb-6">
+								<h6 className="text-xl sm:text-2xl lg:text-4xl poppins-extrabold mb-6">
 									¡Tu éxito comienza aquí!
-								</h3>
+								</h6>
 								<p className='roboto-regular text-base lg:text-xl'>
 									Compártenos tus datos y te contactaremos para resolver tus dudas.
 								</p>
