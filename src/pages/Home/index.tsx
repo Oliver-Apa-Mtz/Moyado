@@ -1,5 +1,3 @@
-import LazyLoad from 'react-lazyload';
-
 import './home.css';
 import Layout from '../../components/Layout';
 import Card from '../../components/Card';
@@ -65,12 +63,8 @@ const Home = () => {
 								</p>
 							</div>
 						</div>
-						<LazyLoad height={200} offset={100}>
-							<img className='effect-1' src={Effect1} alt="Somos más que un despacho contable en Guadalajara" />
-						</LazyLoad>
-						<LazyLoad height={200} offset={100}>
-							<img className='effect-2' src={Effect2} alt="Somos tus aliados estratégicos en el camino hacia el éxito financiero" />
-						</LazyLoad>
+						<img className='effect-1' src={Effect1} alt="Somos más que un despacho contable en Guadalajara" />
+						<img className='effect-2' src={Effect2} alt="Somos tus aliados estratégicos en el camino hacia el éxito financiero" />
 					</div>
 
 					<div id="benefits" className="services">
@@ -100,20 +94,14 @@ const Home = () => {
 					</div>
 
 					<div id="alianzas" className="banner-ppal banner-ppal--three w-screen h-[700px] sm:h-[1100px] z-[-1]" style={{ backgroundImage: `url(${Banner1})` }}>
-						<LazyLoad height={200} offset={100}>
-							<img className='effect-3' src={Effect1} alt="Nuestra misión es brindar atención personalizada y la más alta calidad en servicios contables, auditoría, tributarios, asesoría y consultoría legal" />
-						</LazyLoad>
-						<LazyLoad height={200} offset={100}>
-							<img className='effect-4' src={Effect3} alt="Con profesionales experimentados y certificados, estamos aquí para impulsar el crecimiento de tu empresa." />
-						</LazyLoad>
+						<img className='effect-3' src={Effect1} alt="Nuestra misión es brindar atención personalizada y la más alta calidad en servicios contables, auditoría, tributarios, asesoría y consultoría legal" />
+						<img className='effect-4' src={Effect3} alt="Con profesionales experimentados y certificados, estamos aquí para impulsar el crecimiento de tu empresa." />
 						<div className="banner__container w-full h-full flex items-center gap-4">
 							<div className="w-full max-w-[700px] pt-0 sm:pt-40 lg:pt-80 text-center mx-auto lg:mx-0">
 								<h4 className="text-base sm:text-2xl poppins-extrabold mb-4 text-red">
 									Déjanos ser tu socio de confianza y descubre cómo podemos potenciar tu éxito financiero
 								</h4>
-								<LazyLoad height={200} offset={100}>
-									<img className='mx-auto mt-10' src={Icon5} alt="Déjanos ser tu socio de confianza y descubre cómo podemos potenciar tu éxito financiero" />
-								</LazyLoad>
+								<img className='mx-auto mt-10' src={Icon5} alt="Déjanos ser tu socio de confianza y descubre cómo podemos potenciar tu éxito financiero" />
 							</div>
 						</div>
 					</div>
@@ -134,12 +122,8 @@ const Home = () => {
 								</p>
 							</div>
 						</div>
-						<LazyLoad height={200} offset={100}>
-							<img className='effect-5' src={Effect1} alt="En Moyado Auditores & Consultores, entendemos la importancia de la colaboración" />
-						</LazyLoad>
-						<LazyLoad height={200} offset={100}>
-							<img className='effect-6' src={Effect2} alt="Contamos con alianzas estratégicas con profesionales en diversas áreas, incluyendo notarios, abogados fiscalistas, especialistas en estudios de mercado, y más" />
-						</LazyLoad>
+						<img className='effect-5' src={Effect1} alt="En Moyado Auditores & Consultores, entendemos la importancia de la colaboración" />
+						<img className='effect-6' src={Effect2} alt="Contamos con alianzas estratégicas con profesionales en diversas áreas, incluyendo notarios, abogados fiscalistas, especialistas en estudios de mercado, y más" />
 					</div>
 
 					<div id="services" className="w-screen h-auto relative z-20 pt-[100px] md:pt-[300px] -mb-20 md:mb-10 lg:mb-40 px-[40px]">
@@ -209,9 +193,7 @@ const Home = () => {
 					</div>
 
 					<div id="contact" className="banner-ppal w-screen h-[1200px] sm:h-[1100px] relative z-22" style={{ backgroundImage: `url(${Banner3})` }}>
-						<LazyLoad height={200} offset={100}>
-							<img className='effect-7' src={Effect4} alt="Impulsar el crecimiento y la estabilidad de tu empresa con nuestros servicios especializados" />
-						</LazyLoad>
+						<img className='effect-7' src={Effect4} alt="Impulsar el crecimiento y la estabilidad de tu empresa con nuestros servicios especializados" />
 						<div className="banner__container w-full h-full">
 							<div className="text-white relative text-center pt-[270px] mb-10 md:mb-[80px]">
 								<h6 className="text-xl sm:text-2xl lg:text-4xl poppins-extrabold mb-6">
