@@ -32,6 +32,7 @@ const Header = () => {
 						to="home"
 						spy={true}
 						smooth={true}
+						href="home"
 						offset={0}
 						duration={500}
 						className="header__logo cursor-pointer">
@@ -45,6 +46,7 @@ const Header = () => {
 							to="home"
 							spy={true}
 							smooth={true}
+							href="home"
 							offset={0}
 							duration={500}
 							className="header__nav__item cursor-pointer flex items-center">
@@ -58,6 +60,7 @@ const Header = () => {
 							to="about"
 							spy={true}
 							smooth={true}
+							href="about"
 							offset={200}
 							duration={500}
 							className="header__nav__item cursor-pointer flex items-center">
@@ -71,6 +74,7 @@ const Header = () => {
 							to="benefits"
 							spy={true}
 							smooth={true}
+							href="benefits"
 							offset={-150}
 							duration={500}
 							className="header__nav__item cursor-pointer flex items-center">
@@ -84,6 +88,7 @@ const Header = () => {
 							to="alianzas"
 							spy={true}
 							smooth={true}
+							href="alianzas"
 							offset={350}
 							duration={500}
 							className="header__nav__item cursor-pointer flex items-center">
@@ -97,6 +102,7 @@ const Header = () => {
 							to="services"
 							spy={true}
 							smooth={true}
+							href="services"
 							offset={120}
 							duration={500}
 							className="header__nav__item cursor-pointer flex items-center">
@@ -110,6 +116,7 @@ const Header = () => {
 							to="contact"
 							spy={true}
 							smooth={true}
+							href="contact"
 							offset={100}
 							duration={500}
 							className="header__nav__item cursor-pointer flex items-center">
@@ -120,7 +127,7 @@ const Header = () => {
 						</Link>
 					</div>
 				</div>
-				<div className="flex justify-end ml-4">
+				<div className="flex justify-end ml-4 h-full items-center">
 					<div className="header__phones h-full poppins-semibold text-sm">
 						<a href="tel:+523331211681" className={`block header__nav__item cursor-pointer ${isHeaderFixed ? 'hover:text-[#e3141d]' : 'hover:text-black'}`}>33 3121 1681</a>
 						<a href="tel:+523333347543" className={`block header__nav__item cursor-pointer ${isHeaderFixed ? 'hover:text-[#e3141d]' : 'hover:text-black'}`}>3334 7543</a>
@@ -143,6 +150,7 @@ const Header = () => {
 						to="home"
 						spy={true}
 						smooth={true}
+						href="home"
 						offset={0}
 						duration={500}
 						className="header__nav__movil__item cursor-pointer"
@@ -154,6 +162,7 @@ const Header = () => {
 						to="about"
 						spy={true}
 						smooth={true}
+						href="about"
 						offset={200}
 						duration={500}
 						className="header__nav__movil__item cursor-pointer"
@@ -165,6 +174,7 @@ const Header = () => {
 						to="benefits"
 						spy={true}
 						smooth={true}
+						href="benefits"
 						offset={-150}
 						duration={500}
 						className="header__nav__movil__item cursor-pointer"
@@ -176,6 +186,7 @@ const Header = () => {
 						to="alianzas"
 						spy={true}
 						smooth={true}
+						href="alianzas"
 						offset={350}
 						duration={500}
 						className="header__nav__movil__item cursor-pointer"
@@ -187,6 +198,7 @@ const Header = () => {
 						to="services"
 						spy={true}
 						smooth={true}
+						href="services"
 						offset={120}
 						duration={500}
 						className="header__nav__movil__item cursor-pointer"
@@ -198,6 +210,7 @@ const Header = () => {
 						to="contact"
 						spy={true}
 						smooth={true}
+						href="contact"
 						offset={100}
 						duration={500}
 						className="header__nav__movil__item cursor-pointer"

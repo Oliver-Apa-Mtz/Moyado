@@ -37,7 +37,7 @@ const Footer = () => {
 						</div>
 						<div className='footer__social flex pl-14'>
 							<div className='mr-6'>
-								<a href="#">
+								<a href="https://www.facebook.com/profile.php?id=100068096490103" target="_blank">
 									<svg width="14.0009168px" height="34.0004253px" viewBox="0 0 14.0009168 34.0004253" version="1.1" xmlns="http://www.w3.org/2000/svg">
 										<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
 											<g id="face-icon" transform="translate(-687.5633, -6869.1164)" fill="#FFFFFF">
@@ -52,7 +52,7 @@ const Footer = () => {
 								</a>
 							</div>
 							<div className='mr-6'>
-								<a href="#">
+								<a href="https://www.facebook.com/profile.php?id=100068096490103" target="_blank">
 									<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg">
 										<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
 											<g id="ig-icon" transform="translate(-728.0642, -6869.1168)" fill="#FFFFFF">
@@ -69,7 +69,7 @@ const Footer = () => {
 								</a>
 							</div>
 							<div className='mr-6'>
-								<a href="#">
+								<a href="https://www.facebook.com/profile.php?id=100068096490103" target="_blank">
 									<svg width="33px" height="34px" viewBox="0 0 33 34" version="1.1" xmlns="http://www.w3.org/2000/svg">
 										<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
 											<g id="x-icon" transform="translate(-784.5642, -6869.1168)" fill="#FFFFFF">
