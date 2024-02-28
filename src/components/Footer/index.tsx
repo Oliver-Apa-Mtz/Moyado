@@ -39,7 +39,7 @@ const Footer = () => {
 							<div className='mr-6'>
 								<a href="https://www.facebook.com/profile.php?id=100068096490103" target="_blank">
 									<svg width="14.0009168px" height="34.0004253px" viewBox="0 0 14.0009168 34.0004253" version="1.1" xmlns="http://www.w3.org/2000/svg">
-										<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+										<g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
 											<g id="face-icon" transform="translate(-687.5633, -6869.1164)" fill="#FFFFFF">
 												<g id="Group-9" transform="translate(634.5642, 6522.2662)">
 													<g id="Group-8" transform="translate(53, 346.8506)">
@@ -54,7 +54,7 @@ const Footer = () => {
 							<div className='mr-6'>
 								<a href="https://www.facebook.com/profile.php?id=100068096490103" target="_blank">
 									<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg">
-										<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+										<g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
 											<g id="ig-icon" transform="translate(-728.0642, -6869.1168)" fill="#FFFFFF">
 												<g id="Group-9" transform="translate(634.5642, 6522.2662)">
 													<g id="Redes-sociales" transform="translate(53, 346.8506)">
@@ -71,7 +71,7 @@ const Footer = () => {
 							<div className='mr-6'>
 								<a href="https://www.facebook.com/profile.php?id=100068096490103" target="_blank">
 									<svg width="33px" height="34px" viewBox="0 0 33 34" version="1.1" xmlns="http://www.w3.org/2000/svg">
-										<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+										<g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
 											<g id="x-icon" transform="translate(-784.5642, -6869.1168)" fill="#FFFFFF">
 												<g id="Group-9" transform="translate(634.5642, 6522.2662)">
 													<g id="Redes-sociales" transform="translate(53, 346.8506)">
