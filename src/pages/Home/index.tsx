@@ -70,7 +70,7 @@ const Home = () => {
 					<div id="benefits" className="services">
 						<div className="text-center w-full flex justify-center">
 							<h3 className="text-xl sm:text-3xl poppins-extrabold mb-20 w-full max-w-[640px] lg:pt-20 px-[20px]">
-								¿Por qué elegir  Moyado | Auditores & Consultores?
+								¿Por qué elegir  Moyado Auditores & Consultores?
 							</h3>
 						</div>
 						<div className="flex gap-6 flex-wrap justify-center w-full max-w-[800px] px-10 md:px-0 mx-auto">
