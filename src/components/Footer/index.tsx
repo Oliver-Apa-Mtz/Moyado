@@ -3,6 +3,7 @@ import './footer.css';
 import Logo from '../../assets/img/logo-footer.webp';
 import IconMarker from '../../assets/img/marker.svg';
 import IconPhone from '../../assets/img/phone.svg';
+import LogoDesarrollo from '../../assets/img/logo-dinno.webp';
 
 const Footer = () => {
 	return (
@@ -87,12 +88,16 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<div className="sm:flex text-white w-[1200px] justify-between items-end mx-auto mt-20 sm:mt-0">
+			<div className="sm:flex text-white w-[1200px] justify-between items-end mx-auto mt-20 sm:mt-20">
 				<div className="basis-1/2 text-center sm:text-left">
 					<a href="" target="_blank" className="cursor-pointer hover:text-[#e3141d]">Aviso de Privacidad</a>
 				</div>
 				<div className="basis-1/2 text-center sm:text-right">
-					<p>Sitio creado por Erredesignn 2023.</p>
+					<p>Sitio creado por Erredesign 2023.</p>
+					<a href="https://www.dinno.com.mx/" className='logo-desarrollo hover:text-[#e3141d]' target="_blank">
+						<p>Desarrollado por:</p>
+						<img className='logo-desarrollo__icon' src={LogoDesarrollo} alt="Agencia Dinno" />
+					</a>
 				</div>
 			</div>
 		</footer>

@@ -14,8 +14,22 @@
 .footer__social a:hover #face-icon, .footer__social a:hover #ig-icon, .footer__social a:hover #x-icon{
 	fill: #e3141d;
 }
+.logo-desarrollo{
+	display: flex;
+	justify-content: flex-end;
+	align-items: end;
+	margin-top: 20px;
+}
+.logo-desarrollo__icon{
+	width: 60px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
 @media screen and (max-width: 639px) {
 	.footer {
 		padding: 100px 30px 50px;
+	}
+	.logo-desarrollo {
+		justify-content: center;
 	}
 }
