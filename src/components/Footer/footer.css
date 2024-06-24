@@ -38,4 +38,12 @@
 	.footer__nav__item span{
 		display: none;
 	}
+	.footer__social{
+		padding: 0;
+		justify-content: center;
+		gap: 30px;
+	}
+	.footer__social > div {
+		margin: 0;
+	}
 }
