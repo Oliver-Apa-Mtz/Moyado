@@ -17,7 +17,7 @@
 .logo-desarrollo{
 	display: flex;
 	justify-content: flex-end;
-	align-items: end;
+	align-items: flex-end;
 	margin-top: 20px;
 }
 .logo-desarrollo__icon{
@@ -31,5 +31,11 @@
 	}
 	.logo-desarrollo {
 		justify-content: center;
+	}
+	.footer__nav__item, .footer__nav__item a{
+		display: block;
+	}
+	.footer__nav__item span{
+		display: none;
 	}
 }
