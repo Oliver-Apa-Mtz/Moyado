@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './footer.css';
 
 import Logo from '../../assets/img/logo-footer.webp';
@@ -15,7 +16,9 @@ const Footer = () => {
 				<div className="lg:basis-4/6 lg:pl-20">
 					<div className="roboto-regular text-[20px] sm:text-xl">
 						<div className="footer__logo cursor-pointer mb-14">
-							<img src={Logo} alt="" />
+							<Link to="/">
+								<img src={Logo} alt="Moyado" />
+							</Link>
 						</div>
 						<div className="footer__nav">
 							<a href="https://maps.app.goo.gl/D4QNjjAM3Q2FPMBr8" className="footer__nav__item cursor-pointer flex mb-10 sm:mb-8 hover:text-[#e3141d]" target="_blank">
@@ -38,7 +41,7 @@ const Footer = () => {
 						</div>
 						<div className='footer__social flex pl-14'>
 							<div className='mr-6'>
-								<a href="https://www.facebook.com/profile.php?id=100068096490103" target="_blank">
+								<a href="https://www.facebook.com/share/8crd932sjAUEBZ1Y/?mibextid=LQQJ4d" target="_blank">
 									<svg width="14.0009168px" height="34.0004253px" viewBox="0 0 14.0009168 34.0004253" version="1.1" xmlns="http://www.w3.org/2000/svg">
 										<g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
 											<g id="face-icon" transform="translate(-687.5633, -6869.1164)" fill="#FFFFFF">
@@ -52,6 +55,7 @@ const Footer = () => {
 									</svg>
 								</a>
 							</div>
+							{/* 
 							<div className='mr-6'>
 								<a href="https://www.facebook.com/profile.php?id=100068096490103" target="_blank">
 									<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -69,8 +73,9 @@ const Footer = () => {
 									</svg>
 								</a>
 							</div>
+							*/}
 							<div className='mr-6'>
-								<a href="https://www.facebook.com/profile.php?id=100068096490103" target="_blank">
+								<a href="https://x.com/moyado_a?s=11&t=QFZ9WFKngQgcPPsxYxtwqA" target="_blank">
 									<svg width="33px" height="34px" viewBox="0 0 33 34" version="1.1" xmlns="http://www.w3.org/2000/svg">
 										<g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
 											<g id="x-icon" transform="translate(-784.5642, -6869.1168)" fill="#FFFFFF">
@@ -90,7 +95,9 @@ const Footer = () => {
 			</div>
 			<div className="sm:flex text-white w-[1200px] justify-between items-end mx-auto mt-20 sm:mt-20">
 				<div className="basis-1/2 text-center sm:text-left">
-					<a href="" target="_blank" className="cursor-pointer hover:text-[#e3141d]">Aviso de Privacidad</a>
+					<Link to="/aviso-de-privacidad" className="cursor-pointer hover:text-[#e3141d]">
+						Aviso de Privacidad
+					</Link>
 				</div>
 				<div className="basis-1/2 text-center sm:text-right">
 					<p>Sitio creado por Erredesign 2023.</p>
