@@ -94,7 +94,7 @@ const Form = () => {
 					</div>
 				</div>
 				{alert.show && (
-					<div className="bg-black p-4 rounded-xl my-4 w-max mx-auto" role="alert">
+					<div className="bg-black p-4 rounded-xl my-4 w-full md:w-max mx-auto" role="alert">
 						<p className="text-white be-vietnam-light text">{alert.message}</p>
 					</div>
 				)}

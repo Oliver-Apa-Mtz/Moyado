@@ -31,4 +31,7 @@ input:focus-visible{
 		margin-left: 0px;
 		height: 45px;
 	}
+	.button{
+		padding:0 50px;
+	}
 }

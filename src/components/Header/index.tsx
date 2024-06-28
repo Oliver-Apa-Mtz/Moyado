@@ -127,7 +127,7 @@ const Header = ({ aviso }: Props) => {
 					)}
 				</div>
 				<div className="flex justify-end ml-4 h-full items-center">
-					<div className="header__phones h-full poppins-semibold text-sm">
+					<div className="header__phones h-full poppins-semibold text-sm" style={{ marginRight: aviso ? '0px' : '' }}>
 						<a href="tel:+523331211681" className={`block header__nav__item cursor-pointer ${isHeaderFixed || aviso ? 'hover:text-[#e3141d]' : 'hover:text-black'}`}>33 3121 1681</a>
 						<a href="tel:+523333347543" className={`block header__nav__item cursor-pointer ${isHeaderFixed || aviso ? 'hover:text-[#e3141d]' : 'hover:text-black'}`}>33 3334 7543</a>
 						<a href="tel:+523333354012" className={`block header__nav__item cursor-pointer ${isHeaderFixed || aviso ? 'hover:text-[#e3141d]' : 'hover:text-black'}`}>33 3335 4012</a>
